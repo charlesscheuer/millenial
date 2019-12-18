@@ -1,0 +1,71 @@
+// RESPONSIVE BREAKPOINTS
+$bp-largest: 75em; // 1200px
+$bp-large: 62.5em; // 1000px
+$bp-medium: 50em; // 800px;
+$bp-small: 37.5em; // 600px;
+
+// responsive margins and padding
+$mg-left-big: 20vw;
+$mg-left-medium: 10vw;
+$mg-left-small: 5vw;
+
+// COLOR VARIABLES
+$color-primary: #d72c42;
+$color-secondary: #07275a;
+$color-tertiary: #07275a;
+$color-light: #fff;
+
+// FONT VARIABLES
+$font-display: 'Hurme Geometric Sans', sans-serif;
+$font-serif: 'Josefin Slab', serif;
+$font-head: 'GT Walsheim Pro', sans-serif;
+
+@font-face {
+  font-family: 'Hurme Geometric Sans';
+  src: url('../hurme-geometric-sans/hurme_geometric_sans.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Hurme Geometric Sans';
+  src: url('../hurme-geometric-sans/hurme_geometric_bold.woff') format('woff');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Hurme Geometric Sans';
+  src: url('../hurme-geometric-sans/hurme_geometric_oblique.woff')
+    format('woff');
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Hurme Geometric Sans';
+  src: url('../hurme-geometric-sans/hurme_geometric_regular.woff')
+    format('woff');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'GT Walsheim Pro';
+  src: url('../GT-Walsheim/GT-Walsheim-Pro-Medium.woff') format('woff');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'GT Walsheim Pro';
+  src: url('../GT-Walsheim/GT-Walsheim-Pro-Regular.woff') format('woff');
+  font-weight: regular;
+}
+
+body {
+  background-color: $color-light;
+  padding: 0;
+  margin: 0;
+  font-size: 62.5%; // 10px/16px = 62.5% -> 1rem = 10px
+  // @media only screen and (max-width: $bp-medium) {
+  //     font-size: 10%;
+  // }
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
