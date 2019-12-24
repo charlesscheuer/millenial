@@ -1,37 +1,24 @@
 @font-face {
-  font-family: 'Hurme Geometric Sans';
-  src: url("../hurme-geometric-sans/hurme_geometric_sans.woff") format("woff"); }
-
-@font-face {
-  font-family: 'Hurme Geometric Sans';
-  src: url("../hurme-geometric-sans/hurme_geometric_bold.woff") format("woff");
-  font-weight: bold; }
-
-@font-face {
-  font-family: 'Hurme Geometric Sans';
-  src: url("../hurme-geometric-sans/hurme_geometric_oblique.woff") format("woff");
-  font-style: italic; }
-
-@font-face {
-  font-family: 'Hurme Geometric Sans';
-  src: url("../hurme-geometric-sans/hurme_geometric_regular.woff") format("woff");
+  font-family: 'Basis Grotesque';
+  src: url("../Fonts/Basis-grotesque/BasisGrotesque.woff") format("woff");
   font-weight: 400; }
 
 @font-face {
-  font-family: 'GT Walsheim Pro';
-  src: url("../GT-Walsheim/GT-Walsheim-Pro-Medium.woff") format("woff");
-  font-weight: bold; }
+  font-family: 'Basis Grotesque';
+  src: url("../Fonts/Basis-grotesque/basis-grotesque-regular.woff") format("woff");
+  font-weight: 500; }
 
 @font-face {
-  font-family: 'GT Walsheim Pro';
-  src: url("../GT-Walsheim/GT-Walsheim-Pro-Regular.woff") format("woff");
-  font-weight: regular; }
+  font-family: 'Basis Grotesque';
+  src: url("../Fonts/Basis-grotesque/basis-grotesque-bold.woff") format("woff");
+  font-weight: 600; }
 
 body {
   background-color: #fff;
   padding: 0;
   margin: 0;
   font-size: 62.5%;
+  font-family: "Basis Grotesque", sans-serif;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
